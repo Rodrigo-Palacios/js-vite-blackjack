@@ -1,5 +1,8 @@
-import { defineConfig } from "vite"; 'vite';
+import { defineConfig } from "vite";
 
 export default defineConfig({
-    base: '/js-vite-blackjack/'
+    base: '/js-vite-blackjack/',
+    build: {
+        outDir: "./docs",
+    },
 });
